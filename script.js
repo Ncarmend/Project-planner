@@ -1,7 +1,3 @@
-//conexion serveur
-
-
-//Rafael
 const body = document.body;
 let addToDoButton = document.getElementById('addToDo');
 let addToDoButtonA = document.getElementById('addToDoA');
@@ -60,7 +56,6 @@ addToDoButtonB.addEventListener('click', function () {
     let duree = fin.getTime() - debut.getTime() // La durée en millisecondes
 })
 
-/////////////
 const textinpt = document.createElement("input")
 const div = document.createElement("div")
 body.appendChild(div)
